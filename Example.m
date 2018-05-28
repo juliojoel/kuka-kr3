@@ -11,14 +11,14 @@ kr3Init(T)
 %Acesso à variavel global criada em kr3init
 global kr3
 
-%Definição dos ângulos desejados
+%Definição dos ângulos desejados, em graus
 Q = [10 -100 111 166 100 333]
 
 %Cálculo da cinemática direta
-matFK = kr3FKine(Q)
+matFK = kr3FK(Q)
 
 %Cálculo da cinemática inversa
-Qn = kr3IKine(matFK)
+Qn = kr3IK(matFK)
 
 kr3Teach(Q)           %Visualiza ângulos iniciais
 %kr3Teach(Qn(1,:))     %Visualiza ângulos calculados(primeira solução)
