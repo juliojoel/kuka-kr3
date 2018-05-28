@@ -51,7 +51,7 @@ kr3FK(angulosDH)
 
 ### kr3IK - Inverse kinematics of the robot
 
-Calculates the inverse kinematics of the manipulator robot. An array with angles in degrees (Denavit-Hartemberg) is returned, where each line represents a possible solution.
+Calculates the inverse kinematics of the manipulator robot. An array with angles in degrees (Denavit-Hartemberg) is returned, where each line represents a valid solution.
 
 ``` matlab
 kr3IK(mat)
