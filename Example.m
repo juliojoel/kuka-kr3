@@ -8,7 +8,7 @@ T = [0 0 120.32];
 %Inicialização do robô com ferramenta
 kr3Init(T)
 
-%Acesso à variavel global criada em kr3init
+%Acesso à variavel global criada em kr3Init
 global kr3
 
 %Definição dos ângulos desejados, em graus
