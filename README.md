@@ -1,6 +1,8 @@
 # Kuka KR3
 
-Model and simulation in MATLAB of the Kuka KR3 R540 robot.
+Model and simulation in MATLAB of the Kuka KR3 R540 robot. 
+
+A kinematic analysis was done as part of the Robotics course at UFSC (Federal University of Santa Catarina, Brazil), and is available in Portuguese in 'doc' folder.
 
 ## Requirements
 
@@ -26,7 +28,7 @@ kr3Init(f)
 %           Creates a global variable named kr3 containing all parameters
 ```
 
-The global variable created by the kr3Init function can be accessed through the code:
+The global variable created by the kr3Init function is a SerialLink object that can be manipulated through the Robotics Toolbox functions. To do this, you must declare it:
 
 ``` matlab
 global kr3
@@ -49,7 +51,7 @@ kr3FK(angulosDH)
 
 ### kr3IK - Inverse kinematics of the robot
 
-Calculates the inverse kinematics of the manipulator robot. An array with angles in degrees (Denavit-Hartemberg) is returned, where each line represents a possible solution.
+Calculates the inverse kinematics of the manipulator robot. An array with angles in degrees (Denavit-Hartemberg) is returned, where each line represents a valid solution.
 
 ``` matlab
 kr3IK(mat)
@@ -82,6 +84,6 @@ GNU General Public License v3.0
 
 ## Authors
 
-Júlio J. da Costa
+Júlio J. da Costa Neto
 
-Luiz O. Limurci
+Luiz O. Limurci dos Santos
