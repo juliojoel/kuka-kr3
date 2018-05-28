@@ -1,5 +1,5 @@
 %    kr3Teach - Teach pendant gráfico
-%
+% 
 %    A função permite que o usuário manipule o robô utilizando uma
 %    interface gráfica
 %

@@ -1,5 +1,5 @@
 %    kr3Init - Inicialização do robô KR3
-%
+% 
 %    A função inicializa os parâmetros do robô manipulador Kuka KR3 R540
 %
 %    Uso: kr3Init(f)

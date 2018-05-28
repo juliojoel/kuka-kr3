@@ -1,5 +1,5 @@
 %    kr3FK - Calcula a cinemática direta do robô
-%
+% 
 %    A função retorna a matriz de transformação homogênea de cinemática
 %    direta do robô
 %

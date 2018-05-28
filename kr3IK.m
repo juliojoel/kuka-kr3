@@ -1,5 +1,5 @@
 %    kr3IK - Retorna a cinemática inversa do robô
-%  
+% 
 %    A função calcula a cinemática inversa do robô manipulador.
 %    Uma matriz com ângulos em graus (Denavit-Hartemberg) é retornada, onde
 %    cada linha representa uma solução possível.
