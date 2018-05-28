@@ -86,4 +86,4 @@ GNU General Public License v3.0
 
 Júlio J. da Costa Neto
 
-Luiz O. Limurci
+Luiz O. Limurci dos Santos
