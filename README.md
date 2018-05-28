@@ -13,7 +13,7 @@ The Example.m file contains the code needed to simulate a specific robot positio
 
 ### kr3Init - Robot startup
 
-The function initializes the parameters of the Kuka KR3 R540 robot manipulator
+The function initializes the parameters of the Kuka KR3 R540 robot manipulator.
 
 ``` matlab
 kr3Init(f)
@@ -34,7 +34,7 @@ global kr3
 
 ### kr3FK - Forward kinematics of the robot
 
-Calculation of the forward kinematics homogeneous matrix of the robot, given a position vector of the joints
+Calculation of the forward kinematics homogeneous matrix of the robot, given a position vector of the joints.
 
 ``` matlab
 kr3FK(angulosDH)
