@@ -84,6 +84,6 @@ GNU General Public License v3.0
 
 ## Authors
 
-Júlio J. da Costa
+Júlio J. da Costa Neto
 
 Luiz O. Limurci
