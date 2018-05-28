@@ -2,7 +2,7 @@
 
 Model and simulation in MATLAB of the Kuka KR3 R540 robot. 
 
-A kinematic analysis was done as part of the Robotics class at UFSC (Federal University of Santa Catarina, Brazil), and is available in Portuguese in the Kuka_KR3.pdf file.
+A kinematic analysis was done as part of the Robotics course at UFSC (Federal University of Santa Catarina, Brazil), and is available in Portuguese in the Kuka_KR3.pdf file.
 
 ## Requirements
 
