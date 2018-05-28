@@ -15,10 +15,10 @@ global kr3
 Q = [10 -100 111 166 100 333]
 
 %Cálculo da cinemática direta
-matDireta = cineD(Q)
+matFK = kr3FKine(Q)
 
 %Cálculo da cinemática inversa
-Qn = cineI(matDireta)
+Qn = kr3IKine(matFK)
 
-teach(Q)           %Visualiza ângulos iniciais
-%teach(Qn(1,:))     %Visualiza ângulos calculados(primeira solução)
+kr3Teach(Q)           %Visualiza ângulos iniciais
+%kr3Teach(Qn(1,:))     %Visualiza ângulos calculados(primeira solução)
