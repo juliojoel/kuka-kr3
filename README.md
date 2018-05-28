@@ -26,7 +26,7 @@ kr3Init(f)
 %           Creates a global variable named kr3 containing all parameters
 ```
 
-The global variable created by the kr3Init function can be accessed through the code:
+The global variable created by the kr3Init function is a SerialLink object that can be manipulated through the Robotics Toolbox functions. To do this, you must declare it:
 
 ``` matlab
 global kr3
